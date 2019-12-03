@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.api.HintManager</OriginalElement>
+  <nodes>
+    <node x="1277.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.AbstractCreateParser</node>
+    <node x="363.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.AbstractTruncateParser</node>
+    <node x="0.0" y="1111.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Token</node>
+    <node x="21.5" y="810.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.Lexer</node>
+    <node x="345.25" y="647.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken</node>
+    <node x="563.0" y="1037.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.analyzer.Dictionary</node>
+    <node x="191.0" y="1037.0">com.dangdang.ddframe.rdb.sharding.parsing.SQLParsingEngine</node>
+    <node x="567.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLInsertParser</node>
+    <node x="650.0" y="0.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser</node>
+    <node x="368.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLTruncateParser</node>
+    <node x="198.0" y="573.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLPlaceholderExpression</node>
+    <node x="702.0" y="1037.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.analyzer.Tokenizer</node>
+    <node x="741.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AbstractAlterParser</node>
+    <node x="388.7857142857143" y="331.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Symbol</node>
+    <node x="0.0" y="1037.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AlterParserFactory</node>
+    <node x="528.2857142857142" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLParser</node>
+    <node x="797.0" y="573.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLTextExpression</node>
+    <node x="0.0" y="889.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.dialect.mysql.MySQLLexer</node>
+    <node x="670.0" y="736.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.GeneratedKeyToken</node>
+    <node x="969.0" y="573.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLNumberExpression</node>
+    <node x="129.0" y="736.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.ItemsToken</node>
+    <node x="1088.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.AbstractUpdateParser</node>
+    <node x="746.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLAlterParser</node>
+    <node x="182.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.AbstractSelectParser</node>
+    <node x="0.0" y="963.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.DeleteParserFactory</node>
+    <node x="613.0" y="573.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLIgnoreExpression</node>
+    <node x="381.0" y="1037.0">com.dangdang.ddframe.rdb.sharding.parsing.SQLJudgeEngine</node>
+    <node x="523.2857142857142" y="252.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractParser</node>
+    <node x="562.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.AbstractInsertParser</node>
+    <node x="547.0" y="736.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.TableToken</node>
+    <node x="414.0" y="573.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLIdentifierExpression</node>
+    <node x="1282.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLCreateParser</node>
+    <node x="187.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLSelectParser</node>
+    <node x="577.0" y="810.0">com.dangdang.ddframe.rdb.sharding.executor.event.EventExecutionType</node>
+    <node x="536.75" y="484.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression</node>
+    <node x="200.0" y="963.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.SelectParserFactory</node>
+    <node x="236.75" y="252.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.TokenType</node>
+    <node x="914.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.AbstractDropParser</node>
+    <node x="0.0" y="573.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLPropertyExpression</node>
+    <node x="1093.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLUpdateParser</node>
+    <node x="149.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.DefaultKeyword</node>
+    <node x="252.0" y="736.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.RowCountToken</node>
+    <node x="919.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDropParser</node>
+    <node x="5.0" y="178.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDeleteParser</node>
+    <node x="298.7857142857143" y="331.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Assist</node>
+    <node x="0.0" y="410.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.dialect.mysql.MySQLKeyword</node>
+    <node x="0.0" y="99.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.AbstractDeleteParser</node>
+    <node x="96.78571428571428" y="331.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Keyword</node>
+    <node x="510.7857142857142" y="331.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractSQLParser</node>
+    <node x="596.0" y="963.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.DropParserFactory</node>
+    <node x="370.0" y="810.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.UpdateParserFactory</node>
+    <node x="406.0" y="736.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OrderByToken</node>
+    <node x="153.0" y="810.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.TruncateParserFactory</node>
+    <node x="399.0" y="963.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.InsertParserFactory</node>
+    <node x="0.0" y="736.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OffsetToken</node>
+    <node x="202.78571428571428" y="331.0">com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Literals</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDropParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.AbstractDropParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Literals" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.TokenType">
+      <point x="0.0" y="-14.5" />
+      <point x="240.78571428571428" y="311.0" />
+      <point x="274.25" y="311.0" />
+      <point x="-12.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OrderByToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="466.5" y="716.0" />
+      <point x="400.6666666666667" y="716.0" />
+      <point x="7.916666666666686" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLInsertParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.AbstractInsertParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLIdentifierExpression" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression">
+      <point x="0.0" y="-14.5" />
+      <point x="503.5" y="553.0" />
+      <point x="588.8333333333334" y="553.0" />
+      <point x="-10.416666666666629" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.ItemsToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="180.5" y="706.0" />
+      <point x="369.0" y="706.0" />
+      <point x="-23.75" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractSQLParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLTextExpression" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression">
+      <point x="0.0" y="-14.5" />
+      <point x="873.0" y="543.0" />
+      <point x="630.5" y="543.0" />
+      <point x="31.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.dialect.mysql.MySQLKeyword" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Keyword">
+      <point x="0.0" y="-14.5" />
+      <point x="64.5" y="385.0" />
+      <point x="118.28571428571428" y="385.0" />
+      <point x="-21.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.AbstractUpdateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1172.5" y="59.0" />
+      <point x="779.1875" y="59.0" />
+      <point x="49.6875" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.RowCountToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="319.0" y="716.0" />
+      <point x="384.8333333333333" y="716.0" />
+      <point x="-7.916666666666686" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.GeneratedKeyToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="748.5" y="696.0" />
+      <point x="432.33333333333337" y="696.0" />
+      <point x="39.58333333333337" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.OffsetToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="54.5" y="696.0" />
+      <point x="353.1666666666667" y="696.0" />
+      <point x="-39.583333333333314" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.dialect.mysql.MySQLLexer" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.Lexer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.TableToken" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.token.SQLToken">
+      <point x="0.0" y="-14.5" />
+      <point x="598.5" y="706.0" />
+      <point x="416.5" y="706.0" />
+      <point x="23.75" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Keyword" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.TokenType">
+      <point x="0.0" y="-14.5" />
+      <point x="139.78571428571428" y="301.0" />
+      <point x="249.25" y="301.0" />
+      <point x="-37.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AbstractAlterParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="817.5" y="79.0" />
+      <point x="739.4375" y="79.0" />
+      <point x="9.9375" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLUpdateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.update.AbstractUpdateParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.AbstractSQLParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLPlaceholderExpression" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression">
+      <point x="0.0" y="-14.5" />
+      <point x="296.0" y="543.0" />
+      <point x="568.0" y="543.0" />
+      <point x="-31.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLTruncateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.AbstractTruncateParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLPropertyExpression" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression">
+      <point x="0.0" y="-14.5" />
+      <point x="89.0" y="533.0" />
+      <point x="547.1666666666666" y="533.0" />
+      <point x="-52.08333333333337" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.AbstractCreateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1359.0" y="49.0" />
+      <point x="799.0625" y="49.0" />
+      <point x="69.5625" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.DefaultKeyword" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Keyword">
+      <point x="0.0" y="-14.5" />
+      <point x="214.0" y="385.0" />
+      <point x="161.28571428571428" y="385.0" />
+      <point x="21.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLSelectParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.AbstractSelectParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Assist" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.TokenType">
+      <point x="0.0" y="-14.5" />
+      <point x="333.7857142857143" y="311.0" />
+      <point x="299.25" y="311.0" />
+      <point x="12.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.truncate.AbstractTruncateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="452.5" y="69.0" />
+      <point x="699.6875" y="69.0" />
+      <point x="-29.8125" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.AbstractDeleteParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="81.0" y="49.0" />
+      <point x="659.9375" y="49.0" />
+      <point x="-69.5625" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLNumberExpression" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression">
+      <point x="0.0" y="-14.5" />
+      <point x="1056.0" y="533.0" />
+      <point x="651.3333333333334" y="533.0" />
+      <point x="52.08333333333337" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLCreateParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.create.AbstractCreateParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLIgnoreExpression" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.expression.SQLExpression">
+      <point x="0.0" y="-14.5" />
+      <point x="695.0" y="553.0" />
+      <point x="609.6666666666666" y="553.0" />
+      <point x="10.416666666666629" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.drop.AbstractDropParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="991.0" y="69.0" />
+      <point x="759.3125" y="69.0" />
+      <point x="29.8125" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.insert.AbstractInsertParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="641.5" y="79.0" />
+      <point x="719.5625" y="79.0" />
+      <point x="-9.9375" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dql.select.AbstractSelectParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.SQLStatementParser">
+      <point x="0.0" y="-14.5" />
+      <point x="262.5" y="59.0" />
+      <point x="679.8125" y="59.0" />
+      <point x="-49.6875" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.Symbol" target="com.dangdang.ddframe.rdb.sharding.parsing.lexer.token.TokenType">
+      <point x="0.0" y="-14.5" />
+      <point x="427.2857142857143" y="301.0" />
+      <point x="324.25" y="301.0" />
+      <point x="37.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLAlterParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.ddl.alter.AbstractAlterParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.parsing.parser.dialect.mysql.MySQLDeleteParser" target="com.dangdang.ddframe.rdb.sharding.parsing.parser.statement.dml.delete.AbstractDeleteParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0232758620689655" x="722.6411120471778" y="1029.9578770008425" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

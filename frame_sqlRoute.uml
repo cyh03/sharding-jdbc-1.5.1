@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.api.HintManager</OriginalElement>
+  <nodes>
+    <node x="620.0" y="79.0">com.dangdang.ddframe.rdb.sharding.routing.type.simple.SimpleRoutingEngine</node>
+    <node x="201.0" y="232.0">com.dangdang.ddframe.rdb.sharding.routing.router.ParsingSQLRouter</node>
+    <node x="0.0" y="232.0">com.dangdang.ddframe.rdb.sharding.routing.router.DatabaseHintSQLRouter</node>
+    <node x="395.0" y="79.0">com.dangdang.ddframe.rdb.sharding.routing.type.hint.DatabaseHintRoutingEngine</node>
+    <node x="132.75" y="153.0">com.dangdang.ddframe.rdb.sharding.routing.router.SQLRouter</node>
+    <node x="195.0" y="79.0">com.dangdang.ddframe.rdb.sharding.routing.type.complex.CartesianRoutingEngine</node>
+    <node x="0.0" y="459.0">com.dangdang.ddframe.rdb.sharding.routing.PreparedStatementRoutingEngine</node>
+    <node x="230.0" y="533.0">com.dangdang.ddframe.rdb.sharding.routing.router.SQLRouterFactory</node>
+    <node x="0.0" y="79.0">com.dangdang.ddframe.rdb.sharding.routing.type.complex.ComplexRoutingEngine</node>
+    <node x="0.0" y="533.0">com.dangdang.ddframe.rdb.sharding.routing.StatementRoutingEngine</node>
+    <node x="29.0" y="306.0">com.dangdang.ddframe.rdb.sharding.routing.type.RoutingResult</node>
+    <node x="330.25" y="0.0">com.dangdang.ddframe.rdb.sharding.routing.type.RoutingEngine</node>
+    <node x="0.0" y="607.0">com.dangdang.ddframe.rdb.sharding.routing.SQLRouteResult</node>
+    <node x="0.0" y="385.0">com.dangdang.ddframe.rdb.sharding.routing.type.complex.CartesianRoutingResult</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.router.ParsingSQLRouter" target="com.dangdang.ddframe.rdb.sharding.routing.router.SQLRouter">
+      <point x="0.0" y="-14.5" />
+      <point x="273.0" y="207.0" />
+      <point x="206.25" y="207.0" />
+      <point x="24.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.type.complex.ComplexRoutingEngine" target="com.dangdang.ddframe.rdb.sharding.routing.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="87.5" y="49.0" />
+      <point x="345.5" y="49.0" />
+      <point x="-45.75" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.type.simple.SimpleRoutingEngine" target="com.dangdang.ddframe.rdb.sharding.routing.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="701.0" y="49.0" />
+      <point x="437.0" y="49.0" />
+      <point x="45.75" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.type.hint.DatabaseHintRoutingEngine" target="com.dangdang.ddframe.rdb.sharding.routing.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="497.5" y="59.0" />
+      <point x="406.5" y="59.0" />
+      <point x="15.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.type.complex.CartesianRoutingEngine" target="com.dangdang.ddframe.rdb.sharding.routing.type.RoutingEngine">
+      <point x="0.0" y="-14.5" />
+      <point x="285.0" y="59.0" />
+      <point x="376.0" y="59.0" />
+      <point x="-15.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.router.DatabaseHintSQLRouter" target="com.dangdang.ddframe.rdb.sharding.routing.router.SQLRouter">
+      <point x="0.0" y="-14.5" />
+      <point x="90.5" y="207.0" />
+      <point x="157.25" y="207.0" />
+      <point x="-24.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.routing.type.complex.CartesianRoutingResult" target="com.dangdang.ddframe.rdb.sharding.routing.type.RoutingResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="391.0" y="318.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.config.common.api.ShardingRuleBuilder</OriginalElement>
+  <nodes>
+    <node x="0.0" y="523.0">com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ShardingValueWrapper</node>
+    <node x="304.0" y="375.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.handler.ShardingJdbcNamespaceHandler</node>
+    <node x="487.0" y="449.0">com.dangdang.ddframe.rdb.sharding.config.common.api.config.BindingTableRuleConfig</node>
+    <node x="0.0" y="79.0">com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureTableShardingAlgorithm</node>
+    <node x="244.0" y="449.0">com.dangdang.ddframe.rdb.sharding.spring.datasource.SpringShardingDataSource</node>
+    <node x="219.0" y="523.0">com.dangdang.ddframe.rdb.sharding.config.common.api.ShardingRuleBuilder</node>
+    <node x="146.0" y="0.0">com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureShardingAlgorithm</node>
+    <node x="420.0" y="523.0">com.dangdang.ddframe.rdb.sharding.config.common.api.config.ShardingRuleConfig</node>
+    <node x="0.0" y="153.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.constants.ShardingJdbcDataSourceBeanDefinitionParserTag</node>
+    <node x="0.0" y="597.0">com.dangdang.ddframe.rdb.sharding.config.common.api.config.TableRuleConfig</node>
+    <node x="0.0" y="449.0">com.dangdang.ddframe.rdb.sharding.config.common.api.config.GenerateKeyColumnConfig</node>
+    <node x="0.0" y="301.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.parser.MasterSlaveDataSourceBeanDefinitionParser</node>
+    <node x="0.0" y="375.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.parser.ShardingJdbcStrategyBeanDefinition</node>
+    <node x="0.0" y="227.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.constants.ShardingJdbcStrategyBeanDefinitionParserTag</node>
+    <node x="247.0" y="79.0">com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureDatabaseShardingAlgorithm</node>
+    <node x="177.0" y="597.0">com.dangdang.ddframe.rdb.sharding.config.common.api.config.StrategyConfig</node>
+    <node x="385.0" y="153.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.constants.MasterSlaveDataSourceBeanDefinitionParserTag</node>
+    <node x="366.0" y="227.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.parser.ShardingJdbcDataSourceBeanDefinitionParser</node>
+    <node x="347.0" y="597.0">com.dangdang.ddframe.rdb.sharding.config.common.internal.parser.InlineParser</node>
+    <node x="351.0" y="301.0">com.dangdang.ddframe.rdb.sharding.spring.namespace.parser.ShardingJdbcStrategyBeanDefinitionParser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureDatabaseShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="372.5" y="54.0" />
+      <point x="291.5" y="54.0" />
+      <point x="48.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureTableShardingAlgorithm" target="com.dangdang.ddframe.rdb.sharding.config.common.internal.algorithm.ClosureShardingAlgorithm">
+      <point x="0.0" y="-14.5" />
+      <point x="113.5" y="54.0" />
+      <point x="194.5" y="54.0" />
+      <point x="-48.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="78.0" y="334.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.api.HintManager</OriginalElement>
+  <nodes>
+    <node x="23.5" y="326.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.statement.ShardingPreparedStatement</node>
+    <node x="991.75" y="89.0">com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractResultSetAdapter</node>
+    <node x="0.0" y="247.0">com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractPreparedStatementAdapter</node>
+    <node x="506.50000000000006" y="89.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.resultset.GeneratedKeysResultSet</node>
+    <node x="27.5" y="89.0">com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractStatementAdapter</node>
+    <node x="51.0" y="168.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.statement.ShardingStatement</node>
+    <node x="818.25" y="168.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.datasource.MasterSlaveDataSource</node>
+    <node x="640.25" y="168.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.datasource.ShardingDataSource</node>
+    <node x="710.5" y="89.0">com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractDataSourceAdapter</node>
+    <node x="1227.25" y="168.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection</node>
+    <node x="638.75" y="0.0">com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter</node>
+    <node x="1015.25" y="168.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.resultset.ShardingResultSet</node>
+    <node x="1203.75" y="89.0">com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractConnectionAdapter</node>
+    <node x="244.50000000000006" y="89.0">com.dangdang.ddframe.rdb.sharding.jdbc.core.resultset.GeneratedKeysResultSetMetaData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractPreparedStatementAdapter" target="com.dangdang.ddframe.rdb.sharding.jdbc.core.statement.ShardingStatement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.statement.ShardingStatement" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractStatementAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractConnectionAdapter" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="1306.25" y="49.0" />
+      <point x="761.5833333333333" y="49.0" />
+      <point x="55.83333333333326" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.datasource.ShardingDataSource" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractDataSourceAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="719.25" y="143.0" />
+      <point x="761.75" y="143.0" />
+      <point x="-51.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractStatementAdapter" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="126.0" y="49.0" />
+      <point x="649.9166666666667" y="49.0" />
+      <point x="-55.83333333333337" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.resultset.GeneratedKeysResultSet" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="598.5" y="69.0" />
+      <point x="694.5833333333335" y="69.0" />
+      <point x="-11.166666666666629" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.resultset.GeneratedKeysResultSetMetaData" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="365.50000000000006" y="59.0" />
+      <point x="672.25" y="59.0" />
+      <point x="-33.5" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.resultset.ShardingResultSet" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractResultSetAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.statement.ShardingPreparedStatement" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractPreparedStatementAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractDataSourceAdapter" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="813.0" y="69.0" />
+      <point x="716.9166666666667" y="69.0" />
+      <point x="11.166666666666629" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractConnectionAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.core.datasource.MasterSlaveDataSource" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractDataSourceAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="906.75" y="143.0" />
+      <point x="864.25" y="143.0" />
+      <point x="51.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.AbstractResultSetAdapter" target="com.dangdang.ddframe.rdb.sharding.jdbc.adapter.WrapperAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="1087.75" y="59.0" />
+      <point x="739.25" y="59.0" />
+      <point x="33.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="704.5" y="177.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dangdang.ddframe.rdb.sharding.api.HintManager</OriginalElement>
+  <nodes>
+    <node x="733.0" y="79.0">com.dangdang.ddframe.rdb.sharding.merger.common.AbstractDecoratorResultSetMerger</node>
+    <node x="0.0" y="459.0">com.dangdang.ddframe.rdb.sharding.merger.groupby.GroupByValue</node>
+    <node x="442.0" y="533.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.limit.LimitValue</node>
+    <node x="0.0" y="607.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.OrderItem</node>
+    <node x="328.0" y="459.0">com.dangdang.ddframe.rdb.sharding.merger.MergeEngine</node>
+    <node x="375.2222222222222" y="79.0">com.dangdang.ddframe.rdb.sharding.merger.common.AbstractStreamResultSetMerger</node>
+    <node x="745.0" y="158.0">com.dangdang.ddframe.rdb.sharding.merger.limit.LimitDecoratorResultSetMerger</node>
+    <node x="1.0" y="79.0">com.dangdang.ddframe.rdb.sharding.merger.common.AbstractMemoryResultSetMerger</node>
+    <node x="231.0" y="311.0">com.dangdang.ddframe.rdb.sharding.merger.groupby.aggregation.AggregationUnitFactory</node>
+    <node x="0.0" y="158.0">com.dangdang.ddframe.rdb.sharding.merger.groupby.GroupByMemoryResultSetMerger</node>
+    <node x="0.0" y="385.0">com.dangdang.ddframe.rdb.sharding.merger.common.MemoryResultSetRow</node>
+    <node x="257.0" y="158.0">com.dangdang.ddframe.rdb.sharding.merger.iterator.IteratorStreamResultSetMerger</node>
+    <node x="210.0" y="385.0">com.dangdang.ddframe.rdb.sharding.routing.type.complex.CartesianDataSource</node>
+    <node x="498.0" y="158.0">com.dangdang.ddframe.rdb.sharding.merger.orderby.OrderByStreamResultSetMerger</node>
+    <node x="275.0" y="607.0">com.dangdang.ddframe.rdb.sharding.util.SQLUtil</node>
+    <node x="496.0" y="237.0">com.dangdang.ddframe.rdb.sharding.merger.groupby.GroupByStreamResultSetMerger</node>
+    <node x="423.0" y="0.0">com.dangdang.ddframe.rdb.sharding.merger.ResultSetMerger</node>
+    <node x="300.0" y="533.0">com.dangdang.ddframe.rdb.sharding.constant.OrderType</node>
+    <node x="138.0" y="607.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.condition.Condition</node>
+    <node x="0.0" y="311.0">com.dangdang.ddframe.rdb.sharding.merger.groupby.GroupByRowComparator</node>
+    <node x="0.0" y="533.0">com.dangdang.ddframe.rdb.sharding.merger.util.ResultSetUtil</node>
+    <node x="166.0" y="459.0">com.dangdang.ddframe.rdb.sharding.merger.orderby.OrderByValue</node>
+    <node x="416.0" y="385.0">com.dangdang.ddframe.rdb.sharding.constant.AggregationType</node>
+    <node x="156.0" y="533.0">com.dangdang.ddframe.rdb.sharding.parsing.parser.context.condition.Conditions</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.iterator.IteratorStreamResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractStreamResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="367.5" y="133.0" />
+      <point x="432.4722222222222" y="133.0" />
+      <point x="-57.25" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractStreamResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.ResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.groupby.GroupByStreamResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.orderby.OrderByStreamResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.limit.LimitDecoratorResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractDecoratorResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractDecoratorResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.ResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="856.5" y="54.0" />
+      <point x="533.8333333333334" y="54.0" />
+      <point x="44.33333333333337" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractMemoryResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.ResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="118.5" y="54.0" />
+      <point x="445.16666666666663" y="54.0" />
+      <point x="-44.333333333333314" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.groupby.GroupByMemoryResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractMemoryResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.dangdang.ddframe.rdb.sharding.merger.orderby.OrderByStreamResultSetMerger" target="com.dangdang.ddframe.rdb.sharding.merger.common.AbstractStreamResultSetMerger">
+      <point x="0.0" y="-14.5" />
+      <point x="611.5" y="133.0" />
+      <point x="546.9722222222222" y="133.0" />
+      <point x="57.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="490.0" y="318.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
